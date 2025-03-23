@@ -1,2 +1,5 @@
+ # Tarefa 2: Classes (métodos e atributos) e laço de repetição
 
-![times-nba](https://github.com/user-attachments/assets/9b80cf01-39fe-4c5c-87ad-7769db822fcd)
+ ## 1 Coletar 10 figuras contendo dois ou mais objetos de uma mesma classe
+
+![~carros](https://github.com/user-attachments/assets/cebd141b-4822-462a-bd43-44824a2b3ae5)
