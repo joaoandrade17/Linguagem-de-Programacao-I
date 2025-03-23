@@ -29,5 +29,7 @@
 ### Imagem 9 - Animais
 ![~animais](https://github.com/user-attachments/assets/dc7e8f52-6fcc-4e89-9a8c-0c157aef36ba)
 
-### Imagem 10 - Dispositivos
-![~dispositivos](https://github.com/user-attachments/assets/4fc1951d-b6dd-476a-a41a-7606812620cb)
+### Imagem 10 - Streamings
+![~streamings](https://github.com/user-attachments/assets/83fdca9f-66cf-44a5-9c7a-9c24a9ab298a)
+
+## 2. Modelar via UML ou outra ferramenta cada classe do item 1, com três métodos e três atributos
