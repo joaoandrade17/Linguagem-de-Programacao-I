@@ -33,3 +33,4 @@
 ![~streamings](https://github.com/user-attachments/assets/83fdca9f-66cf-44a5-9c7a-9c24a9ab298a)
 
 ## 2. Modelar via UML ou outra ferramenta cada classe do item 1, com três métodos e três atributos
+![Diagrama classes](https://github.com/user-attachments/assets/d43da225-b470-4c6b-ae9f-61705b565812)
