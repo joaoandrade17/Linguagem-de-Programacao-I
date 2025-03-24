@@ -5,8 +5,8 @@
 ### Imagem 1 - Pessoas
 ![~pessoas](https://github.com/user-attachments/assets/a8ae70d0-b586-4bb1-a04f-84dfd13e1803)
 
-### Imagem 2 - Profissões
-![~profissoes1](https://github.com/user-attachments/assets/35c6dbd2-6e38-4c8f-bf13-088488a3c8b3)
+### Imagem 2 - Animais
+![~animais](https://github.com/user-attachments/assets/dc7e8f52-6fcc-4e89-9a8c-0c157aef36ba)
 
 ###  Imagem 3 - Carros
 ![~carros](https://github.com/user-attachments/assets/cebd141b-4822-462a-bd43-44824a2b3ae5)
@@ -14,8 +14,8 @@
 ### Imagem 4 - Esportes
 ![~esportes](https://github.com/user-attachments/assets/607a5c3b-30bb-4e0a-b5a0-fcb180652937)
 
-### Imagem 5 - Países
-![produto-bandeira-de-196-paises-download](https://github.com/user-attachments/assets/0e43ee73-da85-4767-8b07-0dd47c8c8d6c)
+### Imagem 5 - Plantas
+![~plantas](https://github.com/user-attachments/assets/deae7879-9cea-4b06-ace9-a9f5916d6b9c)
 
 ### Imagem 6 - Instrumentos Musicais
 ![~instrumentos](https://github.com/user-attachments/assets/872357a6-e16b-4106-ba2b-3751f5d475f6)
@@ -26,8 +26,8 @@
 ### Imagem 8 - Filmes
 ![~filmes](https://github.com/user-attachments/assets/4cdef207-3d0f-45ea-aa82-f9b00e7f64fb)
 
-### Imagem 9 - Animais
-![~animais](https://github.com/user-attachments/assets/dc7e8f52-6fcc-4e89-9a8c-0c157aef36ba)
+### Imagem 9 - Video-Games
+![~video-games](https://github.com/user-attachments/assets/779c996a-c35f-4e5f-b10f-f36a137c6263)
 
 ### Imagem 10 - Streamings
 ![~streamings](https://github.com/user-attachments/assets/83fdca9f-66cf-44a5-9c7a-9c24a9ab298a)
