@@ -29,4 +29,19 @@ public class MenuController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    private Button botaoAnimais;
+
+    @FXML
+    public void AbrirTelaAnimal() {
+        try {
+            Stage stage = (Stage) botaoAnimais.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("/atividadedois/animal.fxml"));
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

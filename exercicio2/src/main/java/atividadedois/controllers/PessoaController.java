@@ -1,7 +1,6 @@
 package atividadedois.controllers;
 
 import java.io.IOException;
-
 import atividadedois.classes.Pessoa;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

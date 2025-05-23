@@ -5,19 +5,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atividadedois.controllers.MenuController">
+<AnchorPane prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atividadedois.controllers.MenuController">
    <children>
-      <Button fx:id="botaoPessoas" layoutX="129.0" layoutY="164.0" mnemonicParsing="false" onAction="#AbrirTelaPessoa" prefHeight="40.0" prefWidth="90.0" text="Pessoas" />
-      <Button layoutX="129.0" layoutY="322.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="129.0" layoutY="244.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="319.0" layoutY="408.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="319.0" layoutY="322.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="319.0" layoutY="244.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="319.0" layoutY="164.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="513.0" layoutY="322.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="513.0" layoutY="244.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Button layoutX="513.0" layoutY="164.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Button" />
-      <Label alignment="CENTER" layoutX="245.0" layoutY="57.0" prefHeight="40.0" prefWidth="260.0" text="Menu Principal" textAlignment="CENTER">
+      <Button fx:id="botaoPessoas" layoutX="200.0" layoutY="144.0" mnemonicParsing="false" onAction="#AbrirTelaPessoa" prefHeight="40.0" prefWidth="90.0" text="Pessoas" />
+      <Button layoutX="200.0" layoutY="302.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Livros" />
+      <Button layoutX="200.0" layoutY="224.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Esportes" />
+      <Button layoutX="468.0" layoutY="382.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Streaming" />
+      <Button layoutX="200.0" layoutY="382.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Filmes" />
+      <Button layoutX="200.0" layoutY="462.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Plantas" />
+      <Button fx:id="botaoAnimais" layoutX="468.0" layoutY="462.0" mnemonicParsing="false" onAction="#AbrirTelaAnimal" prefHeight="40.0" prefWidth="90.0" text="Animais" />
+      <Button layoutX="468.0" layoutY="302.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Video-games" />
+      <Button layoutX="468.0" layoutY="224.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Instrumentos" />
+      <Button layoutX="468.0" layoutY="144.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Carros" />
+      <Label alignment="CENTER" layoutX="253.0" layoutY="47.0" prefHeight="40.0" prefWidth="260.0" text="Menu Principal" textAlignment="CENTER">
          <font>
             <Font name="Impact" size="32.0" />
          </font>
