@@ -9,14 +9,14 @@
    <children>
       <Button fx:id="botaoPessoas" layoutX="200.0" layoutY="144.0" mnemonicParsing="false" onAction="#AbrirTelaPessoa" prefHeight="40.0" prefWidth="90.0" text="Pessoas" />
       <Button layoutX="200.0" layoutY="302.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Livros" />
-      <Button layoutX="200.0" layoutY="224.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Esportes" />
+      <Button fx:id="botaoEsportes" layoutX="200.0" layoutY="224.0" mnemonicParsing="false" onAction="#AbrirTelaEsporte" prefHeight="40.0" prefWidth="90.0" text="Esportes" />
       <Button layoutX="468.0" layoutY="382.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Streaming" />
-      <Button layoutX="200.0" layoutY="382.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Filmes" />
+      <Button fx:id="botaoFilmes" layoutX="200.0" layoutY="382.0" mnemonicParsing="false" onAction="#AbrirTelaFilme" prefHeight="40.0" prefWidth="90.0" text="Filmes" />
       <Button layoutX="200.0" layoutY="462.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Plantas" />
       <Button fx:id="botaoAnimais" layoutX="468.0" layoutY="462.0" mnemonicParsing="false" onAction="#AbrirTelaAnimal" prefHeight="40.0" prefWidth="90.0" text="Animais" />
       <Button layoutX="468.0" layoutY="302.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Video-games" />
-      <Button layoutX="468.0" layoutY="224.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Instrumentos" />
-      <Button layoutX="468.0" layoutY="144.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Carros" />
+      <Button fx:id="botaoInstrumentos" layoutX="468.0" layoutY="224.0" mnemonicParsing="false" onAction="#AbrirTelaInstrumento" prefHeight="40.0" prefWidth="90.0" text="Instrumentos" />
+      <Button fx:id="botaoCarros" layoutX="468.0" layoutY="144.0" mnemonicParsing="false" onAction="#AbrirTelaCarro" prefHeight="40.0" prefWidth="90.0" text="Carros" />
       <Label alignment="CENTER" layoutX="253.0" layoutY="47.0" prefHeight="40.0" prefWidth="260.0" text="Menu Principal" textAlignment="CENTER">
          <font>
             <Font name="Impact" size="32.0" />

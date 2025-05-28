@@ -44,4 +44,63 @@ public class MenuController {
             e.printStackTrace();
         }
     }
-}
+
+    @FXML
+    private Button botaoCarros;
+
+    @FXML
+    public void AbrirTelaCarro() {
+        try {
+            Stage stage = (Stage) botaoCarros.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("/atividadedois/carro.fxml"));
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @FXML
+    private Button botaoEsportes;
+
+    @FXML
+    public void AbrirTelaEsporte() {
+        try {
+            Stage stage = (Stage) botaoEsportes.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("/atividadedois/esporte.fxml"));
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @FXML
+    private Button botaoFilmes;
+
+    @FXML
+    public void AbrirTelaFilme() {
+        try {
+            Stage stage = (Stage) botaoFilmes.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getResource("/atividadedois/filme.fxml"));
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+        @FXML
+        private Button botaoInstrumentos;
+
+        @FXML
+        public void AbrirTelaInstrumento() {
+            try {
+                Stage stage = (Stage) botaoInstrumentos.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("/atividadedois/instrumento.fxml"));
+                stage.setScene(new Scene(root));
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
