@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atividadedois.controllers.VideogameController">
+    <Button fx:id="botaoLigar" layoutX="373.0" layoutY="197.0" mnemonicParsing="false" onAction="#LigarOnAction" prefHeight="40.0" prefWidth="90.0" text="Ligar" />
+    <Button fx:id="botaoDesligar" layoutX="485.0" layoutY="197.0" mnemonicParsing="false" onAction="#DesligarOnAction" prefHeight="40.0" prefWidth="90.0" text="Desligar" />
+    <Button fx:id="botaoInserirDisco" layoutX="594.0" layoutY="197.0" mnemonicParsing="false" onAction="#InserirDiscoOnAction" prefHeight="40.0" prefWidth="90.0" text="Inserir Disco" />
+    <Button fx:id="botaoSalvar" layoutX="504.0" layoutY="483.0" mnemonicParsing="false" onAction="#SalvarOnAction" prefHeight="40.0" prefWidth="90.0" text="Salvar" />
+    <Button fx:id="botaoVoltar" layoutX="177.0" layoutY="483.0" mnemonicParsing="false" onAction="#VoltarOnAction" prefHeight="40.0" prefWidth="90.0" text="Voltar" />
+    <Button fx:id="botaoDeletar" layoutX="287.0" layoutY="483.0" mnemonicParsing="false" onAction="#DeletarOnAction" prefHeight="40.0" prefWidth="90.0" text="Deletar" />
+    <Button fx:id="botaoEditar" layoutX="394.0" layoutY="483.0" mnemonicParsing="false" onAction="#EditarOnAction" prefHeight="40.0" prefWidth="90.0" text="Editar" />
+    <ImageView fitHeight="218.0" fitWidth="304.0" layoutX="56.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../images/videogame.png" />
+        </image>
+    </ImageView>
+    <TextField fx:id="Nome" layoutX="442.0" layoutY="72.0" prefHeight="25.0" prefWidth="175.0" />
+    <TextField fx:id="Geracao" layoutX="442.0" layoutY="115.0" prefHeight="25.0" prefWidth="175.0" />
+    <TextField fx:id="Fabricante" layoutX="442.0" layoutY="156.0" prefHeight="25.0" prefWidth="175.0" />
+    <Label layoutX="400.0" layoutY="76.0" prefHeight="17.0" prefWidth="50.0" text="Nome :" />
+    <Label layoutX="384.0" layoutY="119.0" prefHeight="17.0" prefWidth="56.0" text="Geração :" />
+    <Label layoutX="377.0" layoutY="160.0" prefHeight="17.0" prefWidth="63.0" text="Fabricante :" />
+    <TableView fx:id="tabelaVideogame" layoutX="56.0" layoutY="265.0" prefHeight="200.0" prefWidth="634.0">
+        <columns>
+            <TableColumn fx:id="colId" prefWidth="54.0" text="ID" />
+            <TableColumn fx:id="colNome" prefWidth="234.0" text="Nome" />
+            <TableColumn fx:id="colGeracao" minWidth="0.0" prefWidth="146.0" text="Geração" />
+            <TableColumn fx:id="colFabricante" prefWidth="199.0" text="Fabricante" />
+        </columns>
+    </TableView>
+    <Label alignment="CENTER" layoutX="442.0" layoutY="27.0" prefHeight="17.0" prefWidth="175.0" text="Videogame">
+        <font>
+            <Font name="Calibri" size="30.0" />
+        </font>
+    </Label>
+</AnchorPane>
